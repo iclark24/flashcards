@@ -26,7 +26,7 @@ body {
   box-shadow: inset -5px -5px dimgray;
 }
 
-.addcard {
+.cardbutton {
   background-color: cyan;
   height: 50px;
   border-radius: 20px;
@@ -36,14 +36,16 @@ body {
   cursor: pointer;
 }
 
-.changecard {
+#edit {
+  background-color: orange;
+}
+
+#changecard {
   background-color: tomato;
-  height: 50px;
-  border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 30px;
-  cursor: pointer;
+}
+
+#delete {
+  background-color: red;
 }
 
 .form{
