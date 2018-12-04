@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  width: 70%;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.card{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  background-color: lightblue;
+  cursor: pointer;
+  color: black;
+  overflow: auto;
+  transition: 1s;
+  padding: 30px 0px 20px;
+  border-radius: 20px;
+  box-shadow: inset -5px -5px darkgrey;
+}
+
+.card:hover{
+  color: black;
+  background-color: rgb(146, 183, 196);
+  transition: 1s;
+  box-shadow: inset -5px -5px dimgray;
+}
+
+.addcard {
+  background-color: cyan;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.changecard {
+  background-color: tomato;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.form{
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  box-shadow: inset -5px -5px darkgrey;
+  background-color: azure;
+  border-radius: 20px;
+  visibility: hidden; 
+}
+.card-t{
+  width: 200px;
+  height: 30px;
+  margin: 10px 10%;
+  display:inline-block;
+}
+.card-f{
+  width: 80%;
+  height: 100px;
+  margin: 10px 10%;
+  resize: none;
+}
+
+.btn {
+  background-color: cyan;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+}
+
+.close {
+  background-color: red;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+  width: 30px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+}

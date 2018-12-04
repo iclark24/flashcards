@@ -1,0 +1,24 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <title>Flash Cards</title>
+  </head>
+  <body>
+    <h1 class="header">Flash Cards!</h1>
+    <div class="card" id="card" onclick="flip(chosen)"></div>
+    
+  <button class="addcard" id="addcard" onclick="addcard()">Add Card</button>
+  <button class="changecard" id="changecard" onclick="newcard()">Change Card</button>
+
+    <form class="form" id="form">
+      <button class="close" onclick="closeform()">X</button>
+      <input class="card-t" id="card-t" type="text" placeholder="Title"/>
+      <textarea class="card-f" id="card-q" placeholder="Question..."></textarea>
+      <textarea class="card-f" id="card-a" placeholder="Answer..."></textarea>
+      <button class="btn" onclick="createcard()">Add Card</button>
+
+    </form>
+
+  </body>
+  <script src="./js/main.js"></script>
+</html>
